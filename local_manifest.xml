@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-</manifest>
+  <!-- Remove paths -->
+  <remove-project name="platform/external/fastrpc" />
+  <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" />
+  <remove-project name="device/qcom/sepolicy_vndr" />
 
+  <!-- Hardware -->
+  <project path="hardware/qcom/display" name="Project404-whyred/hardware_qcom_display" remote="github" revision="rippa" />
+  <project path="hardware/qcom/media" name="Project404-whyred/hardware_qcom_media" remote="github" revision="rippa" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="Project404-whyred/hardware_qcom_audio" remote="github" revision="rippa" />
+  <project path="hardware/google/pixel" name="Project404-whyred/hardware_google_pixel" remote="github" revision="rippa" />
+
+  <!-- External -->
+  <project path="external/fastrpc" name="Project404-whyred/external_fastrpc" remote="github" revision="rippa" />
+
+  <!-- Vendor -->
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="Project404-whyred/vendor_qcom_opensource_commonsys-intf_display" remote="github" revision="rippa" />
+
+  <!-- Device -->
+  <project path="device/qcom/sepolicy_vndr" name="Project404-whyred/device_qcom_sepolicy_vndr" remote="github" revision="rippa" />
+
+  <!-- Trees -->
+  <project path="device/xiaomi/whyred" name="ItsVixano/android_device_xiaomi_whyred" remote="github" revision="rippa" />
+  <project path="vendor/xiaomi/whyred" name="ItsVixano/android_vendor_xiaomi_whyred" remote="github" revision="rippa" />
+  <project path="kernel/xiaomi/whyred" name="SreekanthPalakurthi/kranul" remote="github" revision="eas" />
+
+</manifest>
