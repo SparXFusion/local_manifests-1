@@ -2,11 +2,8 @@
 <manifest>
 
   <!-- Trees -->
-  <project path="device/oppo/CPH1859" name="kardebayan/device_oppo_CPH1859" remote="github" revision="C49-New" />
-  <project path="vendor/oppo/CPH1859" name="kardebayan/vendor_oppo_CPH1859" remote="github" revision="C49" />
+  <project path="device/oppo/CPH1859" name="StagOS-Devices/device_oppo_CPH1859" remote="github" revision="r11" />
+  <project path="vendor/oppo/CPH1859" name="StagOS-Devices/vendor_oppo_CPH1859" remote="github" revision="r11" />
   <project path="kernel/oppo/CPH1859" name="stormbreaker-project/kernel_oppo_CPH1859" remote="github" revision="alps-rebase" />
-
-  <!-- SEPolicy -->
-  <project path="device/mediatek/sepolicy" name="PixelExperience/device_mediatek_sepolicy" remote="github" revision="eleven" />
   
 </manifest>
