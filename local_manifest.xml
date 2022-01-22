@@ -12,7 +12,7 @@
 
   <!-- Trees -->
   <project path="device/oppo/CPH1859" name="kardebayan/android_device_oppo_CPH1859" remote="github" revision="12" />
-  <project path="vendor/oppo/CPH1859" name="kardebayan/vendor_oppo_CPH1859" remote="github" revision="12" />
+  <project path="vendor/oppo/CPH1859" name="kardebayan/android_vendor_oppo_CPH1859" remote="github" revision="12" />
   <project path="kernel/oppo/CPH1859" name="stormbreaker-project/kernel_oppo_CPH1859" remote="github" revision="alps-rebase" />
   
 </manifest>
